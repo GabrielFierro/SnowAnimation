@@ -1,3 +1,10 @@
+createSnowFlake(); // Calling the function
+createSnowFlake(); // Calling the function
+createSnowFlake(); // Calling the function
+createSnowFlake(); // Calling the function
+createSnowFlake(); // Calling the function
+createSnowFlake(); // Calling the function
+
 function createSnowFlake() {
 	const snow_flake = document.createElement("i");
 	snow_flake.classList.add("fas");

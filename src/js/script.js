@@ -1,9 +1,4 @@
-createSnowFlake(); // Calling the function
-createSnowFlake(); // Calling the function
-createSnowFlake(); // Calling the function
-createSnowFlake(); // Calling the function
-createSnowFlake(); // Calling the function
-createSnowFlake(); // Calling the function
+setInterval(createSnowFlake, 100);
 
 function createSnowFlake() {
 	const snow_flake = document.createElement("i");
